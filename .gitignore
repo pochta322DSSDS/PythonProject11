@@ -3,7 +3,7 @@ venv/
 __pycache__/
 *.pyc
 data/
-*.session
+# *.session
 *.session-journal
 worker.log
 control_bot.log
