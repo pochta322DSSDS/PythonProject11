@@ -7,7 +7,7 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 CONFIG_FILE = DATA_DIR / "bot_config.json"
 STATE_FILE = DATA_DIR / "state.json"
-SESSION_NAME = "session"
+SESSION_NAME = str(DATA_DIR / "session")
 DEFAULT_CONFIG = {
     "enabled": False,
     "target_channel": "",
